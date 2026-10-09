@@ -46,10 +46,7 @@ response = client.messages.create(
 )
 print(response.content[0].text) 
 
-cursor.execute("SELECT * FROM standings")
-rows = cursor.fetchall()
-for row in rows:
-    print(row)
+
 
 
 
